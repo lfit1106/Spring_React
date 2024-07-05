@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.0.94:3306/test_db
+    username: lfit_dev
+    password: 1106
+  jpa:
+    hibernate:
+      ddl-auto: update
